@@ -24,22 +24,20 @@
 # Для этого Петя делает две подсказки. Он называет сумму этих чисел S и их произведение P. Помогите Кате отгадать задуманные Петей числа.
 # s = int(input("Ведите сумму чисел:"()))
 # p = int(input("Ведите произведение чисел:"()))
-s = int(input())
-p = int(input())
-for x in range(s):
-    #print("i",i)
-    for y in range(p):
-        #print("j",j)
-        if x+y==s and x*y==p:
-            print(x, y)
-            break
-        else:
-            print("Что-то не так")
+# for x in range(s):
+#     #print("i",i)
+#     for y in range(p):
+#         #print("j",j)
+#         if x+y == s and x*y == p:
+#             print(x, y)
+#             break
+#         else:
+#             print("Что-то не так")
  
 # ЗPадача 14: Требуется вывести все целые степени двойки (т.е. числа вида 2k), 
 # не превосходящие числа N.
-# n = int (input("Ведите число:"))
-# i = 0
-# while 2**i <=n:
-#     print(2**i)
-#     i+=1
+n = int (input("Ведите число:"))
+i = 0
+while 2**i <=n:
+    print(2**i)
+    i+=1
